@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Nerd</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Press Start 2P', sans-serif;
+            background-color: #121212;
+            color: #39ff14;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e1e1e;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+        }
+        h1 {
+            color: #39ff14;
+        }
+        nav {
+            margin: 10px 0; /* Reduzindo a margem */
+        }
+        nav a {
+            color: #39ff14;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px; /* Aumentando o tamanho da fonte dos links */
+            transition: color 0.3s; /* Adicionando uma transição */
+        }
+        nav a:hover {
+            color: #00ff00; /* Mudando a cor ao passar o mouse */
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+        }
+        .fact, .history, .news {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #333;
+            border-radius: 5px;
+            color: #f0f0f0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 5px;
+            border: 2px solid #39ff14;
+        }
+        .progress-bar {
+            width: 300px;
+            background-color: #444;
+            border: 2px solid #39ff14;
+            padding: 5px;
+            margin-top: 20px;
+        }
+        .progress-fill {
+            height: 20px;
+            width: 70%;
+            background-color: #39ff14;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e1e1e;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Portal Nerd</h1>
+    <nav>
+        <a href="#fatos">Fatos Nerds</a>
+        <a href="#historias">Histórias de Jogos</a>
+        <a href="#noticias">Notícias</a>
+        <a href="#galeria">Galeria</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h2 id="fatos">Fatos Nerds</h2>
+    <div class="fact">
+        <p><strong>Curiosidade 1:</strong> Sabia que o primeiro videogame caseiro foi o Magnavox Odyssey, lançado em 1972?</p>
+    </div>
+    <div class="fact">
+        <p><strong>Curiosidade 2:</strong> O Pac-Man foi originalmente criado para atrair jogadores casuais e se tornou um ícone da cultura pop!</p>
+    </div>
+</div>
+
+<div class="container">
+    <h2 id="historias">Histórias de Jogos</h2>
+    <div class="history">
+        <p><strong>Super Mario:</strong> Criado por Shigeru Miyamoto, o Mario apareceu pela primeira vez em Donkey Kong em 1981 e rapidamente se tornou um dos personagens mais famosos do mundo dos jogos.</p>
+    </div>
+    <div class="history">
+        <p><strong>The Legend of Zelda:</strong> Inspirado nas explorações de Miyamoto em florestas quando criança, Zelda definiu o conceito de aventura em mundo aberto.</p>
+    </div>
+</div>
+
+<div class="container">
+    <h2 id="noticias">Notícias Recentes</h2>
+    <div class="news">
+        <p><strong>Notícia 1:</strong> Foi Anunciado o Segundo Filme De Fnaf!</p>
+    </div>
+    <div class="news">
+        <p><strong>Notícia 2:</strong> O Filme Do Sonic 3 Será Lançado Em Breve!</p>
+    </div>
+</div>
+
+
+<footer>
+    <p>&copy; 2024 Portal Nerd. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
